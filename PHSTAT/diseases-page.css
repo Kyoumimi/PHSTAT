@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo',serif;
+}
+.html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+nav{
+  overflow: hidden;
+background-color: rgb(255, 255, 255);
+
+}
+
+nav a{
+
+  float: right;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Arvo',serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 24px;
+}
+nav a:hover{
+  background-color: #17488D;
+  font-size: 24px;
+  color: white;
+}
+
+ul{
+  padding:0;
+  list-style: none;
+}
+
+li{
+  float: right;
+}
+.logo img{
+  position: absolute;
+  padding-top: 5px;
+ left: 20px;
+}
+#nav{
+  text-align: center;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+  width: 20%;
+  background: #f1f1f1;
+  margin-left: 897px;
+  position: absolute; top: 10px;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+}
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: #17488D;
+  color: white;
+  font-size: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  position: absolute; top: 10px;
+  margin-left: 1300px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+form.example button:hover {
+  background: #17488D;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  border: none;
+}
+
+.nav2{
+  overflow: hidden;
+  background-color:#17488D;
+  position: relative;
+  padding-top: 20px;
+  margin-top: 200px;
+  bottom: 0px;
+  height: 150px;
+  width: 100%;
+}
+.nav2 a{
+  color: #ffffff;
+ padding-top: 40px;
+  font-family: 'Arvo',serif;
+  margin-right: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative; left: 650px;
+}
+.nav2 a:hover{
+  color: rgb(167, 164, 164);
+}
+hr{
+  margin-left: 250px;
+  margin-top: 10px;
+  width: 75%;
+}
+
+.nav2 p{
+  color: #ffffff;
+  padding-top: 90px;
+  text-align: left;
+}
+
+.pw a {
+  padding: -1px;
+}
+.container .acc{
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+/* DISEASES LIST */
+
+#diseases-list {
+  color: #17488D;
+  position: relative; left: 280px;
+  font-size: 2.4rem;
+  font-weight: bolder;
+}
+.alphabet-nav {
+  position: relative; right: 600px;
+  margin-bottom: 50px;
+}
+.hr2 {
+  position: absolute; top: 198px;
+}
+.container a{
+  color: #000000;
+  font-size: 24px;
+  margin-left: 400px;
+  line-height: 60px;
+}
+.line2{
+  margin-left: 800px;
+  margin-top: -1620px;
+  font-size: 24px;
+  line-height: 60px;
+}

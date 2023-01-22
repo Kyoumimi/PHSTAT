@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo',serif;
+}
+
+body{
+    text-align: center;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  
+}
+nav a{
+
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Arvo',serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+nav a:hover{
+    background-color: #17488D;
+    font-size: 24px;
+    color: white;
+}
+ul{
+    padding:0;
+    list-style: none;
+}
+
+li{
+    float: right;
+}
+.logo img{
+    position: absolute;
+    padding-top: 5px;
+   left: 20px;
+}
+
+.nav2{
+    overflow: hidden;
+    background-color:#17488D;
+    position: absolute;
+    padding-top: 20px;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+}
+.nav2 a{
+    color: #ffffff;
+   padding-top: 40px;
+    font-family: 'Arvo',serif;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav2 a:hover{
+    color: rgb(167, 164, 164);
+}
+hr{
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.nav2 p{
+    color: #ffffff;
+    padding-top: 90px;
+    text-align: left;
+}
+.container a{
+    padding-left: 100px;
+    color: #17488D;
+    font-size: 16px;   
+}
+.container .acc{
+    position: relative;
+    top: 35px;
+    left: 40px;  
+}
+.container .acc a {
+    padding-left: 5px;
+    padding-right: 75px;
+}
+.container{
+    background-color: white;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    height: 420px;
+    max-width: 400px;
+    width: 50%;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+    p{
+    margin-bottom: 35px;
+  }  
+
+ 
+input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 10px 0;  
+    padding: 12px 20px; 
+    border: 2px solid rgb(174, 175, 174);   
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+label{
+    float: left;
+}
+
+button {   
+    position: relative;
+    left: 5x;
+    top: 20px;
+    background-color: #17488D;   
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+     color: rgb(255, 255, 254);   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     border-radius: 10px;
+     cursor: pointer;   
+    }  

@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo',serif;
+}
+
+body{
+    text-align: center;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  
+}
+nav a{
+
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Arvo',serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+nav a:hover{
+    background-color: #17488D;
+    font-size: 24px;
+    color: white;
+}
+ul{
+    padding:0;
+    list-style: none;
+}
+
+li{
+    float: right;
+}
+.logo img{
+    position: absolute;
+    padding-top: 5px;
+   left: 20px;
+}
+
+.nav2{
+    overflow: hidden;
+    background-color:#17488D;
+    position: absolute;
+    padding-top: 20px;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+}
+.nav2 a{
+    color: #ffffff;
+   padding-top: 40px;
+    font-family: 'Arvo',serif;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav2 a:hover{
+    color: rgb(167, 164, 164);
+}
+hr{
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.nav2 p{
+    color: #ffffff;
+    padding-top: 90px;
+    text-align: left;
+}
+
+
+section{
+    height:75vh;
+    position: relative;
+   
+}
+    
+.container{
+  background-color: white;
+  max-width: 700px;
+  width: 100%;
+  height:65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+}
+
+.tablink {
+    background-color: rgb(138, 137, 137);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+    position: relative;
+    bottom: 310px;
+  }
+  
+  .tablink:hover {
+    background-color: #a9dcff;
+   
+  }
+  .tabcontent {
+    color: rgb(0, 0, 0);
+    display: none;
+    padding: 100px 50px;
+    width: 600px;
+    height: 240px;
+    position: absolute;
+    bottom:0px;
+   
+  }
+  
+  #Cont {background-color: rgb(255, 255, 255);}
+  #Med {background-color: rgb(255, 255, 255);}
+
+  h3{
+    position: relative;
+    top: -215px;
+  }
+  .p2{
+    position:relative;
+    top: -215px;
+  }
+
+
+  .container2{
+    background-color: white;
+    position: relative;
+    bottom: 200px;
+    height: 400px;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container2 .info{
+    display: inline block;
+    width: 48%;height: 4%;
+     float: left;
+     margin-left: 6px;
+    margin-bottom: 65px;
+    
+}
+label{
+    font-weight: bold;
+    padding-left: 20px;
+    float: left;
+}
+
+input[type=text]{   
+    width: 93%;  
+    margin: 8px 0;  
+    padding: 12px 20px; 
+    border: 2px solid rgb(174, 175, 174);   
+    border-radius: 10px;
+    box-sizing:border-box;
+}
+
+.alphabet-nav{
+    width: 100%;
+    position: relative;
+    bottom: 210px;
+    right:40px;
+}
+
+.alphabet-nav a{
+ font-size: 17px;
+}
+
+.alphabet-nav a:hover{
+    font-size: 17px;
+    padding-bottom: 10px;
+   }
+
+   .hr2{
+    position: relative;
+    right:250px;
+    bottom: 230px;
+    width: 100%;
+}
+
+div.scroll {
+    position: relative;
+    bottom: 220px;
+    width: 600px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    padding-left: 20px;
+  
+}
+fieldset{
+    border: none;
+  
+}
+
+input[type=checkbox]{
+vertical-align: middle;
+position: relative;
+bottom: 1px;
+}
+h4{
+   position: absolute;
+ top: 275px;
+margin-left: 10px;
+}
+
+.container .other{
+    position: relative;
+    bottom: 190px;
+    width:600px;
+}
+
+.button1{
+    position: relative;
+    bottom: 190px;
+    background-color: #17488D;   
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+     color: rgb(255, 255, 254);   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     border-radius: 10px;
+     cursor: pointer;   
+}

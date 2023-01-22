@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo',serif;
+}
+.html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+nav{
+  overflow: hidden;
+background-color: rgb(255, 255, 255);
+
+}
+
+nav a{
+
+  float: right;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Arvo',serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 24px;
+}
+nav a:hover{
+  background-color: #17488D;
+  font-size: 24px;
+  color: white;
+}
+
+ul{
+  padding:0;
+  list-style: none;
+}
+
+li{
+  float: right;
+}
+.logo img{
+  position: absolute;
+  padding-top: 5px;
+ left: 20px;
+}
+#nav{
+  text-align: center;
+}
+.nav2{
+  overflow: hidden;
+  background-color:#17488D;
+  padding-top: 0px;
+  margin-top: 674px;
+  margin-left: -280px;
+  bottom: 0px;
+  height: 170px;
+  width: 100%;
+}
+.nav2 a{
+  color: #ffffff;
+ padding-top: 40px;
+  font-family: 'Arvo',serif;
+  margin-right: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative; left: 650px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.nav2 a:hover{
+  color: rgb(167, 164, 164);
+}
+hr{
+  margin-left: 250px;
+  margin-top: 10px;
+  width: 75%;
+}
+
+.nav2 p{
+  color: #ffffff;
+  padding-top: 85px;
+  text-align: left;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.pw a {
+  padding: -1px;
+}
+.container .acc{
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+/* ANALYTICS PAGE */
+
+#analytics-page {
+  color: #17488D;
+  position: relative; left: 280px;
+  font-size: 2.4rem;
+  font-weight: bolder;
+}
+/* rectangle */
+.chart {
+  height: 770px;
+  margin-top: 25px;
+  background: #17488D;
+  width: 1920px;
+  margin-left: -280px;
+}
+.chartimg {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.chartcaption{
+  color: black;
+  width: 1600px;
+  margin-left: -100px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: normal;
+}
+.chart2 img {
+  height: 500px;
+  width: 1100px;
+}
+.chart2 {
+  margin-left: -200px;
+}
+.legend img{
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.legend {
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+  padding-right: 10px;
+  padding-left: 30px;
+  border: 2px solid #ececec;
+  margin-left: 950px;
+  margin-top: -508px;
+  width: 600px;
+  height: 500px;
+  margin-bottom: 80px;
+}
+.chart3 img{
+  margin-left: -200px;
+  height: 600px;
+  width: 1000px;
+}
+.chart4 img {
+  margin-left: 850px;
+  margin-top: -800px;
+  height: 647px;
+  width: 750px; 
+}
+.caption2 {
+  color: black;
+  width: 1600px;
+  margin-left: -100px;
+  margin-top: 80px;
+  margin-bottom: -550px;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: normal; 
+}

@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo',serif;
+}
+
+body{
+    text-align: center;
+    
+}
+.logo img{
+    position: absolute;
+    padding-top: 5px;
+   left: 20px;
+}
+nav{
+    overflow: hidden;
+   background-color: rgb(255, 255, 255);
+  
+}
+nav a{
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Arvo',serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 24px;
+}
+nav a:hover{
+    background-color: #17488D;
+    font-size: 24px;
+    color: white;
+}
+ul{
+    padding:0;
+    list-style: none;
+}
+
+li{
+    float: right;
+}
+
+.nav2{
+    overflow: hidden;
+    background-color:#17488D;
+    position: absolute;
+    padding-top: 20px;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+}
+.nav2 a{
+    color: #ffffff;
+    padding-top: 40px;
+    font-family: 'Arvo',serif;
+    margin-right: 59px;
+    margin-left: -14px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.nav2 a:hover{
+    color: rgb(167, 164, 164);
+}
+hr{
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 75%;
+}
+.nav2 p{
+    color: #ffffff;
+    padding-top: 90px;
+    text-align: left;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #17488D;
+    margin-right: 100px;
+     float: right;
+    margin-top: 10px;
+    z-index: 12;
+  }
+  .fa-regular {
+    margin-top: 15px;
+    color: #ffffff;
+  }
+
+  .profile {
+    width: 20px;
+    margin-left: 20px;
+    color: #17488D;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+  .profile a{
+    color: #17488D;
+    text-decoration: none;
+  }
+  
+  .profile:hover{
+    background: #D0E5F1;
+  }
+  .Records {
+    width: 20px;
+    margin-left: 20px;
+    color: #17488D;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+ 
+  .Records a{
+    color: #17488D;
+    text-decoration: none;
+  }
+  .Reports {
+    width: 20px;
+    margin-left: 20px;
+    background: #D0E5F1;
+    color: #17488D;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+  .Records:hover{
+    background:#D0E5F1;
+  }
+  .Reports a{
+    color: #17488D;
+    text-decoration: none;
+  }
+  
+  .logout {
+    width: 20px;
+    margin-left: 20px;
+    background: #ffffff;
+    color: #17488D;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+  .logout:hover{
+    background: #D0E5F1;
+  }
+  .logout a{
+    color: #17488D;
+    text-decoration: none;
+  }
+  .recs {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #17488D;
+    margin-left: -600px;
+    margin-top: -600px;
+  }
+  .hr2 {
+    margin-top: 20px;
+    margin-left: 600px;
+    width: 1200px;
+  }
+  
+  table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  
+.highlight{
+background-color: #D0E5F1;
+}
+
+  /* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  float: right;
+  width: 20%;
+  background: #f1f1f1;
+ margin-left: 300px;
+  position: absolute; top: 140px;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+}
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: #17488D;
+  color: white;
+  font-size: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  position: absolute; top: 140px;
+  margin-left: 700px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+form.example button:hover {
+  background: #17488D;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  border: none;
+}
+h3{
+  margin-top: 20px;
+  float: right;
+  margin-right: 300px;
+}
